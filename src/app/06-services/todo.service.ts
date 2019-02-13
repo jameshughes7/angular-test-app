@@ -6,6 +6,7 @@ export class TodoService {
   constructor(private http: Http) {
   }
 
+  // takes todo and returns an observable
   add(todo) {
     return this.http.post('...', todo).map(r => r.json());
   }

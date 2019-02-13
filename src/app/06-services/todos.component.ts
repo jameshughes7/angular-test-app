@@ -26,6 +26,6 @@ export class TodosComponent {
 }
 
 // testing ngOnInit
-// subscribe to service.gerTodos method
+// subscribe to service.getTodos method
 // as it is returning an observable
 // initialise the todos property

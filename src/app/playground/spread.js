@@ -59,3 +59,7 @@ console.log(spreadCopiedArray);
 let string = "hello";
 let characters = [...string];
 console.log(characters);
+
+// How to validateNumber
+const validateNumber = n => !isNaN(parseFloat(n)) && isFinite(n) && Number(n) == n;
+console.log(validateNumber(10));
